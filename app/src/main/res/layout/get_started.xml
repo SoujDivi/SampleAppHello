@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+android:layout_margin="10dp"
+    android:background="@drawable/textinputborder"
+    android:hint="Name"
+    android:paddingLeft="10dp"
+    android:inputType="textVisiblePassword" />
+
+    <EditText
+        android:id="@+id/mailid"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textinputborder"
+        android:hint="Enter email"
+        android:paddingLeft="10dp"
+        android:inputType="textVisiblePassword" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textinputborder"
+        android:hint="Enter password"
+        android:paddingLeft="10dp"
+        android:inputType="textVisiblePassword" />
+
+
+    <EditText
+        android:id="@+id/confirm_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/textinputborder"
+        android:hint="Re-enter password"
+        android:paddingLeft="10dp"
+        android:inputType="textVisiblePassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SUBMIT"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
